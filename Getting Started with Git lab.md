@@ -64,6 +64,7 @@ Use 4 tildas
 You use square brackets around the word that you want to include a link in and then paste the URL inbeween open and close parentheses
 
 **How do you link to a section in the same or another markdown file?**  
+If the page is rendered, you can link to a section by clicking on the little link symbol next to the section heading and then pasting the link into parentheses in the desired location. You can also use a [relative link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#relative-links) to link another markdown file to the markdown file you are working on by following the same process you would with creating a hyperlink but for the url use the structure "docs/OTHER MARKDOWN FILE NAME.md" .  
 
 **What are the three possible symbols for indicating an unordered list?**  
 Asterisks, dashes, or plus signs can be used to create an unordered list.
