@@ -9,10 +9,8 @@ Answer the following questions using the documentation above. Turn in your compl
 ## Collection Builder
 ***For all answers in this section, give the answer and the URL of the page where you found it.***
 
-1. **Which fields are required for *all items* in CollectionBuilder-GH metadata?**
-objectid, filename, title, and format (https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/)
-2. **What file do you need to edit to add a new page to your navigation bar?**
-You should edit the "config-nav.csv” file to add a new page to your navigation bar. (https://collectionbuilder.github.io/cb-docs/docs/pages/add_page/) 
+1. **Which fields are required for *all items* in CollectionBuilder-GH metadata?**  objectid, filename, title, and format (https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/)
+2. **What file do you need to edit to add a new page to your navigation bar?**  You should edit the "config-nav.csv” file to add a new page to your navigation bar. (https://collectionbuilder.github.io/cb-docs/docs/pages/add_page/) 
 3. **What metadata fields are required to support the map visualization in CollectionBuilder-GH metadata?** 
 The latitude and longitude are required for map visualization (https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/)
 4. **What four columns are included in the config-metadata.csv file?**
