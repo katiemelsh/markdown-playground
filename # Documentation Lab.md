@@ -13,28 +13,28 @@ Answer the following questions using the documentation above. Turn in your compl
 objectid, filename, title, and format (https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/)
 2. **What file do you need to edit to add a new page to your navigation bar?**  
 You should edit the "config-nav.csv” file to add a new page to your navigation bar. (https://collectionbuilder.github.io/cb-docs/docs/pages/add_page/) 
-3. **What metadata fields are required to support the map visualization in CollectionBuilder-GH metadata?** 
+3. **What metadata fields are required to support the map visualization in CollectionBuilder-GH metadata?**  
 The latitude and longitude are required for map visualization (https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/)
-4. **What four columns are included in the config-metadata.csv file?**
+4. **What four columns are included in the config-metadata.csv file?**  
 Field, display_name, browse_link, and external_link (https://collectionbuilder.github.io/cb-docs/docs/customization/config-metadata/#metadata--item-page-configuration-config-metadatacsv)
-5. **If you wanted a metadata field called "archive" in your metadata field to display as "Holding Institution" in the metadata section of each item's page, what file would you edit? (Bonus point: what columns of that file would you edit and what text would you input in each column?)**
+5. **If you wanted a metadata field called "archive" in your metadata field to display as "Holding Institution" in the metadata section of each item's page, what file would you edit? (Bonus point: what columns of that file would you edit and what text would you input in each column?)**  
 “_data/config-metadata.csv” if you want to update the metadata field (https://collectionbuilder.github.io/cb-docs/docs/customization/config-metadata/#metadata--item-page-configuration-config-metadatacsv). In the row that is for the field called "archive" you should update the display name field to say "holding institution".
-6. **How should the date September 8, 2023 be formatted so that the timeline visualization works?** 
+6. **How should the date September 8, 2023 be formatted so that the timeline visualization works?**  
 Dates should be written in the yyyy-mm-dd format to work with timeline visualization (https://collectionbuilder.github.io/cb-docs/docs/metadata/gh_metadata/#fields-required-for-visualizations)
-7. **What column in what file allows you determine whether a field can be used for sorting on the Browse page of your website?**
+7. **What column in what file allows you determine whether a field can be used for sorting on the Browse page of your website?**  
 The sort_name column in the _data/config-browse.csv file is what can be updated to set whether or not a field is able to be used to sort on the Browse page (https://collectionbuilder.github.io/cb-docs/docs/customization/config-browse/#browse-page-configuration-config-browsecsv)
-8. **How do you change which metadata fields contribute values to the "Subjects" visualization page?**
+8. **How do you change which metadata fields contribute values to the "Subjects" visualization page?**  
 (https://collectionbuilder.github.io/cb-docs/docs/theme/subjects/)
-9. **What three items (keys) are in the YAML front matter of any of the markdown page files?**
+9. **What three items (keys) are in the YAML front matter of any of the markdown page files?**  
 Title, layout, permalink (https://collectionbuilder.github.io/cb-docs/docs/pages/basics/)
-10. **When filling in "metadata: " with the name of your metadata sheet on your "\_config.yml" file, should you include the file extension?**
+10. **When filling in "metadata: " with the name of your metadata sheet on your "\_config.yml" file, should you include the file extension?**  
 No. (https://collectionbuilder.github.io/cb-docs/docs/config/collection/)
-11. **Which file controls the display options for most of your website?**
-
-12. **How can you separate multiple values in a single field in your metadata file?**
-
-13. **Find the example code for including a PDF from your collection (with a caption) on one of your interpretive pages (hint: start with the "Feature Includes" page)**
-
+11. **Which file controls the display options for most of your website?**  
+The "_data/theme.yml” file controls the display options. (https://collectionbuilder.github.io/cb-docs/docs/theme/)
+12. **How can you separate multiple values in a single field in your metadata file?**  
+You can use a semicolon to separate multiple values in a single field. (https://collectionbuilder.github.io/cb-docs/docs/metadata/formatting/)
+13. **Find the example code for including a PDF from your collection (with a caption) on one of your interpretive pages (hint: start with the "Feature Includes" page)**  
+{% include feature/pdf.html objectid="demo_002" width="50" caption="a pdf from the collection" %} (https://collectionbuilder.github.io/collectionbuilder-gh/feature_options.html)
 ## SUCHO Metadata
 1. **Which metadata fields are always required for a SUCHO item?**
 2. **What character separates multiple values in Column E and Column F?**
