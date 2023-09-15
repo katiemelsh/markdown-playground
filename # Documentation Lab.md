@@ -24,7 +24,7 @@ Dates should be written in the yyyy-mm-dd format to work with timeline visualiza
 7. **What column in what file allows you determine whether a field can be used for sorting on the Browse page of your website?**  
 The sort_name column in the _data/config-browse.csv file is what can be updated to set whether or not a field is able to be used to sort on the Browse page (https://collectionbuilder.github.io/cb-docs/docs/customization/config-browse/#browse-page-configuration-config-browsecsv)
 8. **How do you change which metadata fields contribute values to the "Subjects" visualization page?**  
-(https://collectionbuilder.github.io/cb-docs/docs/theme/subjects/)
+You can update which metadata fields contribute to the "Subjects" visualization page in the "subjects-fields" field in the “_data/theme.yml". (https://collectionbuilder.github.io/cb-docs/docs/theme/subjects/)
 9. **What three items (keys) are in the YAML front matter of any of the markdown page files?**  
 Title, layout, permalink (https://collectionbuilder.github.io/cb-docs/docs/pages/basics/)
 10. **When filling in "metadata: " with the name of your metadata sheet on your "\_config.yml" file, should you include the file extension?**  
@@ -60,7 +60,7 @@ You should use the `<del>` tag to indicated deleted text. Text should be surroun
 The quick brown fox jumped over the the lazy dog.
 </p>
 ```  
-You should add <sic @rend="repeated word"> before the repeated word and then <sic> after the repeated word.  
+You should add <sic @rend="repeated word"> before the repeated word and then `<sic>` after the repeated word.  
  
 4. **Which tag is used to enclose an entire list of non-book items and which tag is used to enclose a list of books? Which tag should be used to enclose an individual non-book item, and which tag should enclose an individual book item?**  
 You should use `<list>` and `<item>` to enclose a list of non-book items and you should use `<listBibl>` and then each item inside a `<bibl>` for a list of book items. I'm a little confused about this because it looks like you use the same tag for individual non-book items as you use for a list of non-book items and the same tag for individual book items that you use for a list of book items, but I could be misreading the documentation?
