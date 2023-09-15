@@ -50,15 +50,17 @@ Year should be displayed first, followed by month, and then day (e.g. YYYY-MM-DD
 You would type your name into Column B, the Claimed by field.  
 
 ## Alex's TEI guidelines
-1. **What tag should be used to indicate deleted text?**
-
-2. **When should `<damage>` be used instead of `<gap>`?**
-
+1. **What tag should be used to indicate deleted text?**  
+You should use the `<del>` tag to indicated deleted text. Text should be surrounded by the tag.
+2. **When should `<damage>` be used instead of `<gap>`?**  
+`<damage>` should be used when the text is still readable but there has been physical damange to the item. `<gap>` should be used when there is a section of the text isn't readable for a variety of reasons (including damage). 
 3. **How would you indicate that a word is repeated in the following code block?**
 ```xml
 <p>
 The quick brown fox jumped over the the lazy dog.
 </p>
-```
-
-4. **Which tag is used to enclose an entire list of non-book items and which tag is used to enclose a list of books? Which tag should be used to enclose an individual non-book item, and which tag should enclose an individual book item?**
+```  
+You should add <sic @rend="repeated word"> before the repeated word and then <sic> after the repeated word.  
+ 
+4. **Which tag is used to enclose an entire list of non-book items and which tag is used to enclose a list of books? Which tag should be used to enclose an individual non-book item, and which tag should enclose an individual book item?**  
+You should use `<list>` and `<item>` to enclose a list of non-book items and you should use `<listBibl>` and then each item inside a `<bibl>` for a list of book items. I'm a little confused about this because it looks like you use the same tag for individual non-book items as you use for a list of non-book items and the same tag for individual book items that you use for a list of book items, but I could be misreading the documentation?
