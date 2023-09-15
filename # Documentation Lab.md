@@ -36,12 +36,18 @@ You can use a semicolon to separate multiple values in a single field. (https://
 13. **Find the example code for including a PDF from your collection (with a caption) on one of your interpretive pages (hint: start with the "Feature Includes" page)**  
 {% include feature/pdf.html objectid="demo_002" width="50" caption="a pdf from the collection" %} (https://collectionbuilder.github.io/collectionbuilder-gh/feature_options.html)
 ## SUCHO Metadata
-1. **Which metadata fields are always required for a SUCHO item?**
-2. **What character separates multiple values in Column E and Column F?**
-3. **Format the name "Yevhen Federovych Stankovych" according to the content guidelines for Creator**
-4. **What is the cardinality of the field "date?""**
-5. **What would be the correctly formatted value for the field "Host Location" for an item held by an institution in Lviv, the capital of Ukraine's Lviv Oblast?** 
+1. **Which metadata fields are always required for a SUCHO item?**  
+Progress, Claimed by, Title, Identifier, Subject Headings, Original Subject Headings (if present), Creator (if present), Date (if present), Language (if applicable), Source URL, Host Institution, Host Location, Original Description (if present) and Description are all required. 
+2. **What character separates multiple values in Column E and Column F?**  
+Semi-colons separate multiple values.
+3. **Format the name "Yevhen Federovych Stankovych" according to the content guidelines for Creator**  
+Stankovych, Yevhen Federovych
+4. **What is the cardinality of the field "date?""**  
+Year should be displayed first, followed by month, and then day (e.g. YYYY-MM-DD). The "date" field should be entered as the date the item was originally created/published (if a poster was printed in 1890 that date would be listed as 1890 and not 2023 when the record was created).
+5. **What would be the correctly formatted value for the field "Host Location" for an item held by an institution in Lviv, the capital of Ukraine's Lviv Oblast?**
+ Lviv (Q36036)
 6. **If you wanted to indicate that you were working on a row in our metadata spreadsheet, how would you do that?**
+You would type your name into Column B, the Claimed by field.  
 
 ## Alex's TEI guidelines
 1. **What tag should be used to indicate deleted text?**
